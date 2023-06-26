@@ -46,7 +46,7 @@ namespace CustomHashtable
             return size == 0;
         }
 
-        public void Put(int key, string value)
+        public  void Put(int key, string value)
         {
             if (value == null)
             {
